@@ -4,11 +4,6 @@ import Link from 'next/link';
 import { FcGoogle } from 'react-icons/fc';
 import { signIn } from 'next-auth/react';
 
-export const metadata = {
-  title: 'Login',
-  description: 'Listed Dashboard',
-};
-
 const LoginPage = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">

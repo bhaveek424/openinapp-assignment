@@ -2,14 +2,11 @@ import { Bell } from 'lucide-react';
 import Activities from '../components/Activities';
 import DetailsCard from '../components/DetailsCard';
 import Piechart from '../components/PieChart';
-import Sidebar from '../components/Sidebar';
 import TopCards from '../components/TopCards';
 import { Searchbar } from '../components/Searchbar';
 import Avatar from '../components/Avatar';
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
-import { CircleDot } from 'lucide-react';
-import { Circle } from 'lucide-react';
 
 export const metadata = {
   title: 'Dashboard | Listed',
