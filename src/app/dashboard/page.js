@@ -11,6 +11,11 @@ import { redirect } from 'next/navigation';
 import { CircleDot } from 'lucide-react';
 import { Circle } from 'lucide-react';
 
+export const metadata = {
+  title: 'Dashboard | Listed',
+  description: 'Board.',
+};
+
 export default async function DashboardPage() {
   const session = await getServerSession();
   if (!session || !session.user) {
