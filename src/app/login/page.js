@@ -1,18 +1,12 @@
 'use client';
-import { Image } from 'lucide-react';
 import Link from 'next/link';
-import { cn } from '../lib/utils';
-import { Github } from 'lucide-react';
-import { Twitter } from 'lucide-react';
-import { Linkedin } from 'lucide-react';
-import { EmailForm } from '../components/EmailForm';
-import { CircleEllipsis } from 'lucide-react';
+
 import { FcGoogle } from 'react-icons/fc';
 import { signIn } from 'next-auth/react';
 
 export const metadata = {
-  title: 'Login | Listed',
-  description: 'Board.',
+  title: 'Login',
+  description: 'Listed Dashboard',
 };
 
 const LoginPage = () => {
