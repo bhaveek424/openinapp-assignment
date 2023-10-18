@@ -4,7 +4,7 @@ import SessionProvider from './components/SessionProvider';
 import NavMenu from './components/NavMenu';
 import { getServerSession } from 'next-auth';
 
-const inter = Montserrat({ subsets: ['latin'] });
+const monte = Montserrat({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,7 +16,7 @@ export default async function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={monte.className}>
         {/* <NavMenu /> */}
         <div classname="h-full relative ">
           <SessionProvider session={session}>
